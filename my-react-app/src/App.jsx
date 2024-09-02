@@ -4,6 +4,9 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import YourPerfectVenuePage from './pages/YourPerfectVenuePage';
+import AboutUsPage from './pages/AboutUsPage';
+import ContactUsPage from './pages/ContactUsPage';
+
 
 function App() {
   return (
@@ -13,6 +16,9 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/your-perfect-venue" element={<YourPerfectVenuePage />} />
+          <Route path="/about" element={<AboutUsPage />} />
+          <Route path="/contact" element={<ContactUsPage />} />
+
         </Routes>
         <Footer />
       </div>
